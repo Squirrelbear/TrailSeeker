@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointMapper", "PointMapper\PointMapper\PointMapper.csproj", "{62CF360A-8115-4EA8-B3B4-25961FAD9C17}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "PointMapperContent", "PointMapper\PointMapperContent\PointMapperContent.contentproj", "{61500EF4-0547-41C2-AA27-F8A5E9B6A461}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62CF360A-8115-4EA8-B3B4-25961FAD9C17}.Debug|x86.ActiveCfg = Debug|x86
+		{62CF360A-8115-4EA8-B3B4-25961FAD9C17}.Debug|x86.Build.0 = Debug|x86
+		{62CF360A-8115-4EA8-B3B4-25961FAD9C17}.Release|x86.ActiveCfg = Release|x86
+		{62CF360A-8115-4EA8-B3B4-25961FAD9C17}.Release|x86.Build.0 = Release|x86
+		{61500EF4-0547-41C2-AA27-F8A5E9B6A461}.Debug|x86.ActiveCfg = Debug|x86
+		{61500EF4-0547-41C2-AA27-F8A5E9B6A461}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/scroll" android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+
+	<LinearLayout
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+	
+	    <TextView
+	        android:id="@+id/lblPoint"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+	    <TextView
+	        android:id="@+id/lblProgress"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+	    <TextView
+	        android:id="@+id/lblDescription"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	    <Button
+	        android:id="@+id/btnReturn"
+	        android:layout_width="172dp"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:gravity="center_horizontal"
+	        android:onClick="btnReturnPressed"
+	        android:text="@string/btnReturn"
+	        android:textSize="@dimen/btnTextSize" />
+	
+	</LinearLayout>
+	
+</ScrollView>	

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/scroll" android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+
+	<LinearLayout
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+
+	    <TextView
+	        android:id="@+id/TextView02"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/lblLat"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	    <EditText
+	        android:id="@+id/latInput"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:focusable="false"
+	        android:focusableInTouchMode="false"
+	        android:inputType="numberDecimal" 
+		/>
+	    
+	    <TextView
+	        android:id="@+id/TextView01"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/lblLon"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	    <EditText
+	        android:id="@+id/lonInput"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:focusable="false"
+	        android:focusableInTouchMode="false"
+	        android:inputType="numberDecimal" />
+
+	    <com.google.android.maps.MapView
+		    xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:id="@+id/mapview"
+		    android:layout_width="match_parent"
+		    android:layout_height="160dp"
+		    android:clickable="false"
+		    android:apiKey="0KlWJOVe-EVPJ4aD2TTibFyJUcfOEYipbLVMx8w"
+		/>
+	    
+	    <TextView
+	        android:id="@+id/TextView03"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/lblDescription"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	    <EditText
+	        android:id="@+id/descriptionInputEditPoint"
+	        android:layout_width="match_parent"
+	        android:layout_height="fill_parent"
+	        android:ems="10"
+	        android:hint="@string/hintDescriptionPoint"
+	        android:inputType="textMultiLine" />
+
+	    <TableRow
+	        android:id="@+id/tableRow1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center" >
+
+	        <Button
+	            android:id="@+id/btnSavePoint"
+	            android:layout_width="150dp"
+	            android:layout_height="wrap_content"
+	            android:onClick="btnSavePointPressed"
+	            android:text="@string/btnSavePoint"
+	            android:textSize="@dimen/btnTextSize" />
+
+	        <Button
+	            android:id="@+id/btnCancel"
+	            android:layout_width="150dp"
+	            android:layout_height="wrap_content"
+	            android:onClick="btnCancelPressed"
+	            android:text="@string/btnCancel"
+	            android:textSize="@dimen/btnTextSize" />
+
+	    </TableRow>
+
+	</LinearLayout>
+	
+</ScrollView>	

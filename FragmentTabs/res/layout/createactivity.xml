@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/scroll" android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+
+	<LinearLayout
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+	
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/lbltitle"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+	    <EditText
+	        android:id="@+id/titleInput"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:hint="@string/hintTitle" />
+	
+	    <TextView
+	        android:id="@+id/textView2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/lblauthor"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+	    <EditText
+	        android:id="@+id/authorInput"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:hint="@string/hintAuthor" >
+	
+	        <requestFocus />
+	    </EditText>
+	
+	    <TextView
+	        android:id="@+id/textView3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/lblPointRange"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+	    <Spinner
+	        android:id="@+id/pointRangeSpinner"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:entries="@array/distanceOptions" />
+	
+	    <TextView
+	        android:id="@+id/textView4"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/lblpointlist"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+	    <Spinner
+	        android:id="@+id/pointListSpinner"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" />
+
+	    <TableRow
+	        android:id="@+id/tableRow1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_horizontal" >
+
+	        <Button
+	            android:id="@+id/btnAddPoint"
+	            android:layout_width="100dp"
+	            android:layout_height="wrap_content"
+	            android:text="@string/btnAddPoint"
+	            android:textSize="@dimen/btnTextSize"
+	            android:onClick="btnAddPressed" />
+
+	        <Button
+	            android:id="@+id/btnEditPoint"
+	            android:layout_width="100dp"
+	            android:layout_height="wrap_content"
+	            android:text="@string/btnEditPoint"
+	            android:textSize="@dimen/btnTextSize"
+	            android:onClick="btnEditPressed" />
+
+	        <Button
+	            android:id="@+id/btnRemovePoint"
+	            android:layout_width="100dp"
+	            android:layout_height="wrap_content"
+	            android:text="@string/btnRemovePoint"
+	            android:textSize="@dimen/btnTextSize"
+	            android:onClick="btnRemovePressed" />
+	    </TableRow>
+
+	    <TextView
+	        android:id="@+id/textView5"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/lblDescription"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	    <EditText
+	        android:id="@+id/descriptionInput"
+	        android:layout_width="match_parent"
+	        android:layout_height="92dp"
+	        android:ems="10"
+	        android:hint="@string/hintDescriptionMain"
+	        android:inputType="textMultiLine" />
+
+	    <Button
+	        android:id="@+id/btnFinish"
+	        android:layout_width="150dp"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:gravity="center_horizontal"
+	        android:onClick="btnFinishPressed"
+	        android:text="@string/btnFinish"
+	        android:textSize="@dimen/btnTextSize" />
+	
+	</LinearLayout>
+	
+</ScrollView>	

@@ -1,0 +1,14 @@
+C:\Users\Assassian360\Documents\Visual Studio 2010\Projects\PointMapper\PointMapper\PointMapper\bin\x86\Debug\Content\hugeFont.xnb
+C:\Users\Assassian360\Documents\Visual Studio 2010\Projects\PointMapper\PointMapper\PointMapper\bin\x86\Debug\PointMapper.exe
+C:\Users\Assassian360\Documents\Visual Studio 2010\Projects\PointMapper\PointMapper\PointMapper\bin\x86\Debug\PointMapper.pdb
+C:\Users\Assassian360\Documents\Visual Studio 2010\Projects\PointMapper\PointMapper\PointMapper\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Assassian360\Documents\Visual Studio 2010\Projects\PointMapper\PointMapper\PointMapper\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Assassian360\Documents\Visual Studio 2010\Projects\PointMapper\PointMapper\PointMapper\obj\x86\Debug\PointMapper.exe
+C:\Users\Assassian360\Documents\Visual Studio 2010\Projects\PointMapper\PointMapper\PointMapper\obj\x86\Debug\PointMapper.pdb
+C:\Users\Assassian360\Dropbox\Dropbox\2012\COMP4717 Mobile\MajorAssignment\PointMapper\PointMapper\PointMapper\bin\x86\Debug\Content\hugeFont.xnb
+C:\Users\Assassian360\Dropbox\Dropbox\2012\COMP4717 Mobile\MajorAssignment\PointMapper\PointMapper\PointMapper\bin\x86\Debug\PointMapper.exe
+C:\Users\Assassian360\Dropbox\Dropbox\2012\COMP4717 Mobile\MajorAssignment\PointMapper\PointMapper\PointMapper\bin\x86\Debug\PointMapper.pdb
+C:\Users\Assassian360\Dropbox\Dropbox\2012\COMP4717 Mobile\MajorAssignment\PointMapper\PointMapper\PointMapper\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Assassian360\Dropbox\Dropbox\2012\COMP4717 Mobile\MajorAssignment\PointMapper\PointMapper\PointMapper\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Assassian360\Dropbox\Dropbox\2012\COMP4717 Mobile\MajorAssignment\PointMapper\PointMapper\PointMapper\obj\x86\Debug\PointMapper.exe
+C:\Users\Assassian360\Dropbox\Dropbox\2012\COMP4717 Mobile\MajorAssignment\PointMapper\PointMapper\PointMapper\obj\x86\Debug\PointMapper.pdb

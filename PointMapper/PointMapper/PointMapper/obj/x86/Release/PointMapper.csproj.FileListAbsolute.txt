@@ -1,0 +1,7 @@
+C:\Users\Assassian360\Documents\Visual Studio 2010\Projects\PointMapper\PointMapper\PointMapper\bin\x86\Release\Content\hugeFont.xnb
+C:\Users\Assassian360\Documents\Visual Studio 2010\Projects\PointMapper\PointMapper\PointMapper\bin\x86\Release\PointMapper.exe
+C:\Users\Assassian360\Documents\Visual Studio 2010\Projects\PointMapper\PointMapper\PointMapper\bin\x86\Release\PointMapper.pdb
+C:\Users\Assassian360\Documents\Visual Studio 2010\Projects\PointMapper\PointMapper\PointMapper\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Assassian360\Documents\Visual Studio 2010\Projects\PointMapper\PointMapper\PointMapper\obj\x86\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Assassian360\Documents\Visual Studio 2010\Projects\PointMapper\PointMapper\PointMapper\obj\x86\Release\PointMapper.exe
+C:\Users\Assassian360\Documents\Visual Studio 2010\Projects\PointMapper\PointMapper\PointMapper\obj\x86\Release\PointMapper.pdb

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Trail Seeker</string>
+    <string name="tab_mymaps">My Maps</string>
+    <string name="tab_downloaded">Downloaded</string>
+    <string name="tab_online">Find New</string>
+    <string name="lbltitle">Title:</string>
+    <string name="lblauthor">Author:</string>
+    <string name="lblPointRange">Point Detect Range:</string>
+    <string-array name="distanceOptions">
+        <item >5 m</item>
+        <item >10 m</item>
+        <item >20 m</item>
+    </string-array>
+        <string name="lblpointlist">Added Points List:</string>
+        <string name="btnAddPoint">Add</string>
+        <string name="btnRemovePoint">Remove</string>
+        <string name="btnFinish">Finish Course</string>
+        <string name="btnEditPoint">Edit</string>
+        <string name="hintAuthor">Enter Your Name Here</string>
+        <string name="hintTitle">Enter A Title Here</string>
+        <string name="yes">Yes</string>
+        <string name="no">No</string>
+        <string name="quitCreateTitle">Cancel Confirmation</string>
+        <string name="finishCreateTitle">Finish Confirm</string>
+        <string name="quitCreateMessage">Are you sure you want to cancel creating this new trail? All data collected will be lost.</string>
+        <string name="finishCreateMessage">Are you sure you are finished?</string>
+        <string name="lblLat">Latitude: (advanced property)</string>
+        <string name="lblLon">Longitude: (advanced property)</string>
+        <string name="lblDescription">"Description: "</string>
+        <string name="hintDescriptionPoint">Enter something that tells the user how to reach the next point. If it is the last point you can use this to congratulate them.</string>
+        <string name="hintDescriptionMain">Enter a description about this map trail.</string>
+        <string name="btnSavePoint">Save Point</string>
+        <string name="btnCancel">Cancel</string>
+        <string name="btnBegn">Begin</string>
+        <string name="btnShowStart">Show Start Point</string>
+        <string name="savePointTitle">Save Point</string>
+        <string name="savePointMessage">You pressed back. Do you want to save your changes?</string>
+        <string name="deleteTitle">Delete</string>
+        <string name="deleteMessage">Are you sure you want to delete this?</string>
+        <string name="uploadTitle">Upload</string>
+        <string name="uploadMessage">Are you sure you want to upload? Once uploaded you will not be able to remove it from online.</string>
+        <string name="btnDownload">Download</string>
+        <string name="removeTitle">Remove Confirm</string>
+        <string name="removeMessage">Are you sure you wish to remove this node?</string>
+        <string name="exitPointViewTitle">Confirm Exit</string>
+        <string name="exitPointViewMessage">Are you sure you want to go exit? This will lose all current progress on this trail.</string>
+        <string name="btnReturn">Return to Map</string>
+        <string name="btnExit">Exit</string>
+</resources>

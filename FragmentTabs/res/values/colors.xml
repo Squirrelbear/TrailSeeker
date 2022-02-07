@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_mymap">#339966</color>
+    <color name="color_downloaded">#006699</color>
+    <color name="color_online">#FFCC66</color>
+    <color name="black">#000000</color>
+</resources>
